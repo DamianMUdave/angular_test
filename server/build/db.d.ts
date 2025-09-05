@@ -1,4 +1,3 @@
-import sql from 'promise-mysql';
-declare const pool: import("bluebird")<sql.Pool>;
+declare const pool: any;
 export default pool;
 //# sourceMappingURL=db.d.ts.map
